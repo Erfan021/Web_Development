@@ -1,0 +1,28 @@
+td{
+  background-color: black;
+  height: 300px;
+  width: 150px;
+  border: 6px solid white;
+}
+
+.art{
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Handlee', cursive;
+}
+
+#one{
+  background-color: #721b65;
+}
+#two{
+  background-color: #b80d57;
+}
+#three{
+  background-color: #f8615a;
+}
+#four{
+  background-color: #ffd868;
+}

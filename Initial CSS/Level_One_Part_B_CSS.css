@@ -1,0 +1,22 @@
+body{
+  /* background-color: gray; */
+  background: url(https://img2.10bestmedia.com/Images/Photos/352450/GettyImages-913753556_54_990x660.jpg);
+  background-repeat: no-repeat;
+}
+
+div{
+  background-color: blue;
+  border-color: red;
+  /* border-width: thick; */
+  border-width: 3px;
+  border-style: dotted;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background-color: red;
+  color: black;
+}
