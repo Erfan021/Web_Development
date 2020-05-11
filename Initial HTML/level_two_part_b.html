@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FORMS</title>
+  </head>
+  <body>
+    <form>
+      <h1>Log In</h1>
+      <h4>Please input your email and password</h4>
+      <input type="email" name="useremail" value="Email">
+      <input type="password" name="password" value="">
+      <input type="submit" name="submit button" value="SUBMIT">
+    </form>
+
+    <form>
+      <h3>Choose Color</h3>
+      <input type="color" name="" value="">
+    </form>
+
+    <form>
+      <h4>Enter text</h4>
+      <input type="text" name="" value="">
+    </form>
+
+    <form action="https://www.google.com" method="get">
+      <p>Enter Text:</p>
+      <input type="text" name="usertext" value="">
+      <input type="submit" name="" value="SUBMIT">
+    </form>
+    <br><br>
+
+    <!-- Without 'for' parameter -->
+    <form>
+      <label>
+        Enter text:
+        <input type="text" name="" value="text 1">
+      </label>
+      <label>
+        <input type="text" name="" value="text 2">
+      </label>
+    </form>
+    <br>
+
+    <!-- With 'for' parameter -->
+    <form>
+      <label for="userinput">Enter input:</label>
+      <!--<input id="userinput" type="text" name="" value="Hello">-->
+      <input id="userinput" type="text" name="" placeholder="Hello" required>
+      <input type="text" name="" placeholder="not required">
+      <input type="submit" name="" value="SUBMIT NOW">
+    </form>
+    <br><br>
+
+    <h1>SELECTIONS</h1>
+
+    <form method="get">
+      <h5>Are from Pakistan or out of Pakistan?</h5>
+      <label for="inpakistan">Inside: </label>
+      <input id="inpakistan" type="radio" name="loc" value="inside">
+      <label for="outpakistan">Outside: </label>
+      <input id="outpakistan" type="radio" name="loc" value="outside">
+
+      <h5>How was the service?</h5>
+      <select name="stars">
+        <option value="Great">3</option>
+        <option value="Okay">2</option>
+        <option value="Bad">1</option>
+      </select>
+
+      <h5>Feedback?</h5>
+      <textarea name="feedbacktext" rows="8" cols="20"></textarea>
+      <br>
+      <input type="submit" name="" value="SUBMIT">
+    </form>
+
+  </body>
+</html>
